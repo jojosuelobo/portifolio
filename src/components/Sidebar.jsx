@@ -12,6 +12,10 @@ const Sidebar = () => {
 
   const [t, i18n] = useTranslation("global")
 
+  const downloadCurriculum = () => {
+
+  };
+
   return (
     <aside id="sidebar">
       {/* <h1>Josué Lobo</h1> */}
@@ -23,9 +27,9 @@ const Sidebar = () => {
       </div>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="#" className="btn">
+      <button className="btn" onClick={() => downloadCurriculum}>
         {t("aside.botaoDownload")}
-      </a>
+      </button>
     </aside>
   );
 };

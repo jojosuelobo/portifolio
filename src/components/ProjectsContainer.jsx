@@ -12,7 +12,7 @@ const ProjectsContainer = () => {
         cumque reiciendis accusamus totam, veniam iusto numquam distinctio.
         Dignissimos labore aspernatur pariatur?
       </p>
-      <a href="#" className="btn">
+      <a target="_blank" href="https://github.com/jojosuelobo?tab=repositories" className="btn">
       {t("labels.botaoProjetos")}
       </a>
     </section>
