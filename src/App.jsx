@@ -5,9 +5,15 @@ import Sidebar from "./components/Sidebar";
 
 import "./styles/components/app.sass";
 
+import { useTranslation } from "react-i18next";
+
 function App() {
 
-  const [language, setLanguage] = useState("PTBR")
+  const [t, i18n] = useTranslation("global")
+
+  const handleChangeLanguage = (lang) => {
+    i18n.changeLanguage(lang)
+  }
 
   return (
     <>
@@ -16,17 +22,17 @@ function App() {
           src="https://flagcdn.com/br.svg"
           width="44"
           alt="ptbr"
-          onClick={() => setLanguage("PTBR")} />
+          onClick={() => handleChangeLanguage("ptbr")} />
 
         <img
           src="https://flagcdn.com/us.svg"
           width="60"
           alt="us"
-          onClick={() => setLanguage("EN")} />
+          onClick={() => handleChangeLanguage("us")} />
 
       </div>
       <div id="portfolio">
-        <Sidebar language={language} />
+        <Sidebar/>
         <MainContent />
       </div>
     </>
