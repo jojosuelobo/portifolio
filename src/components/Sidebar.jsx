@@ -12,24 +12,19 @@ const Sidebar = () => {
 
   const [t, i18n] = useTranslation("global")
 
-  const handleChangeLanguage = (lang) => {
-    console.log(lang)
-    i18n.changeLanguage(lang)
-  }
-
   return (
     <aside id="sidebar">
-      <h1>Josué Lobo</h1>
-      {/* <h1>{t("aside.nome")}</h1> */}
+      {/* <h1>Josué Lobo</h1> */}
+      <h1>{t("aside.nome")}</h1>
       <img src={Avatar} alt="Josué Lobo" />
       <div className="tags">
-        <p className="title">Desenvolvedor Web</p>
-        <p className="subtitle">Analista de Testes QA</p>
+        <p className="title">{t("aside.tag1")}</p>
+        <p className="subtitle">{t("aside.tag2")}</p>
       </div>
       <SocialNetworkContainer />
       <InformationContainer />
       <a href="#" className="btn">
-        Download currículo
+        {t("aside.botaoDownload")}
       </a>
     </aside>
   );

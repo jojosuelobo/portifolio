@@ -1,5 +1,48 @@
 {
     "aside": {
-        "nome": "josue"
-    }
+        "nome": "Josué Lobo",
+        "tag1": "Desenvolvedor Web",
+        "tag2": "Analista de Testes QA",
+        "botaoDownload": "Download currículo"
+    },
+    "about": {
+        "texto1": "Apaixonado por tecnologia, bacharel em ciência da computação na Universidade Vila Velha (UVV). Atuo como Analista de Qualidade de Software (QA) com experiência em testes manuais e automatizados. Proficiente em levantamento de requisitos, elaboração de testes e execução de casos de teste.",
+        "texto2": "Conhecimento em planejamento de testes, cenários de testes , casos de testes, pirâmide de testes, testes funcionais, testes não funcionais, testes exploratórios e testes de regressão, automação de testes da Web com Ghost Inspector, Selenium e Cypress, consulta em banco de dados com SQL conhecimento de Front-end e Back-end",
+        "texto3": "Dedicado, empático, determinado, autodidata, tenho muita força de vontade, tenho facilidade de aprender, trabalho bem em equipe"
+    },
+    "experience": [
+        {
+            "empresa": "Octuspay",
+            "cargo": "Analista de testes/QA",
+            "mesInicio": "out",
+            "anoInicio": "2023",
+            "mesFim": "Atualmente",
+            "anoFim": "2023",
+            "descricao": "",
+            "tarefas": [],
+            "competencias": ["Testes", "Cypress.io"]
+        },
+        {
+            "empresa": "ETAURE",
+            "cargo": "Analista de testes/QA",
+            "mesInicio": "abr",
+            "anoInicio": "2023",
+            "mesFim": "out",
+            "anoFim": "de 2023",
+            "descricao": "",
+            "tarefas": ["- Documentação, planejamento e assistência da equipe de QA", "- Levantamento de fluxos de processos e requisitos", "- Criação de testes automatizados em Cypress", "- Pipeline de testes automatizados"],
+            "competencias": ["Cypress.io", "Selenium", "C#", "Automação de testes"]
+        },
+        {
+            "empresa": "Conexos Consultoria e Sistemas",
+            "cargo": "Analista de testes/QA",
+            "mesInicio": "jul",
+            "anoInicio": "2021",
+            "mesFim": "fev",
+            "anoFim": "de 2023",
+            "descricao": "",
+            "tarefas": ["- Planejamento e execução das atividades diárias de acordo com os prazos definidos pela equipe, colaborando com o bom andamento das operações e a qualidade dos resultados.", "- Planejamento de Testes, Cenários de Testes, Casos de testes.", "- Documentação de rotinas e bugs de sistema.", "- Automação de testes da Web com Ghost Inspector, Selenium."],
+            "competencias": ["Garantia de qualidade de software", "Testes ágeis", "Testes de banco de dados", "Qualidade de software", "Automação de testes"]
+        }
+    ]
 }
