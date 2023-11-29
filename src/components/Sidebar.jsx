@@ -27,9 +27,9 @@ const Sidebar = () => {
       </div>
       <SocialNetworkContainer />
       <InformationContainer />
-      <button className="btn" onClick={() => downloadCurriculum}>
+      <a href="../../doc/Curriculum.pdf" className="btn">
         {t("aside.botaoDownload")}
-      </button>
+      </a>
     </aside>
   );
 };
