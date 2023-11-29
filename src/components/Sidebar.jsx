@@ -27,7 +27,7 @@ const Sidebar = () => {
       </div>
       <SocialNetworkContainer />
       <InformationContainer />
-      <a href="../../doc/Curriculum.pdf" className="btn">
+      <a href="https://drive.google.com/file/d/1s4PD2tTA6kUJnefi-uGgf5wgj5ba2Dyw/view" className="btn">
         {t("aside.botaoDownload")}
       </a>
     </aside>
