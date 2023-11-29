@@ -1,5 +1,3 @@
-import "../styles/components/maincontent.sass";
-
 const AboutContainer = () => {
   return (
     <section className="about-container">
