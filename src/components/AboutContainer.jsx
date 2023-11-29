@@ -5,7 +5,7 @@ const AboutContainer = () => {
 
   return (
     <section className="about-container">
-      <h2>Sobre</h2>
+      <h2>{t("labels.sobre")}</h2>
       <p>
         {t("about.texto1")}
       </p>

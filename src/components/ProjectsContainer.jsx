@@ -1,7 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 const ProjectsContainer = () => {
+  const [t, i18n] = useTranslation("global")
+
   return (
     <section className="projects-container">
-      <h2>Projetos</h2>
+      <h2>{t("labels.projetos")}</h2>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore at
         rem fugit provident dolorum exercitationem, ducimus quisquam ratione
@@ -9,7 +13,7 @@ const ProjectsContainer = () => {
         Dignissimos labore aspernatur pariatur?
       </p>
       <a href="#" className="btn">
-        Ver Projetos
+      {t("labels.botaoProjetos")}
       </a>
     </section>
   );

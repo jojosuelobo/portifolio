@@ -7,7 +7,7 @@ const ExperienceContainer = () => {
 
   return (
     <section className="about-container">
-      <h2>Experiência Profissional</h2>
+      <h2>{t("labels.experiencia")}</h2>
       <ul>
         {t(`experience`, { returnObjects: true }).map((exp, index) => (
           <li key={index}>

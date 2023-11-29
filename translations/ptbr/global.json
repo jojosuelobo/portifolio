@@ -1,4 +1,11 @@
 {
+    "labels": {
+        "sobre": "Sobre",
+        "experiencia": "Experiência Profissional",
+        "tecnologia": "Tecnologias",
+        "projetos": "Projetos",
+        "botaoProjetos": "Ver Projetos"
+    },
     "aside": {
         "nome": "Josué Lobo",
         "tag1": "Desenvolvedor Web",
