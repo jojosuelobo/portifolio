@@ -24,7 +24,7 @@
             "mesInicio": "out",
             "anoInicio": "2023",
             "mesFim": "Atualmente",
-            "anoFim": "2023",
+            "anoFim": "",
             "descricao": "",
             "tarefas": [],
             "competencias": ["Testes", "Cypress.io"]
