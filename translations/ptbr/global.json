@@ -27,7 +27,10 @@
             "anoFim": "",
             "descricao": "",
             "tarefas": [],
-            "competencias": ["Testes", "Cypress.io"]
+            "competencias": [
+                "Testes",
+                "Cypress.io"
+            ]
         },
         {
             "empresa": "ETAURE",
@@ -37,8 +40,18 @@
             "mesFim": "out",
             "anoFim": "de 2023",
             "descricao": "",
-            "tarefas": ["- Documentação, planejamento e assistência da equipe de QA", "- Levantamento de fluxos de processos e requisitos", "- Criação de testes automatizados em Cypress", "- Pipeline de testes automatizados"],
-            "competencias": ["Cypress.io", "Selenium", "C#", "Automação de testes"]
+            "tarefas": [
+                "- Documentação, planejamento e assistência da equipe de QA",
+                "- Levantamento de fluxos de processos e requisitos",
+                "- Criação de testes automatizados em Cypress",
+                "- Pipeline de testes automatizados"
+            ],
+            "competencias": [
+                "Cypress.io",
+                "Selenium",
+                "C#",
+                "Automação de testes"
+            ]
         },
         {
             "empresa": "Conexos Consultoria e Sistemas",
@@ -48,8 +61,57 @@
             "mesFim": "fev",
             "anoFim": "de 2023",
             "descricao": "",
-            "tarefas": ["- Planejamento e execução das atividades diárias de acordo com os prazos definidos pela equipe, colaborando com o bom andamento das operações e a qualidade dos resultados.", "- Planejamento de Testes, Cenários de Testes, Casos de testes.", "- Documentação de rotinas e bugs de sistema.", "- Automação de testes da Web com Ghost Inspector, Selenium."],
-            "competencias": ["Garantia de qualidade de software", "Testes ágeis", "Testes de banco de dados", "Qualidade de software", "Automação de testes"]
+            "tarefas": [
+                "- Planejamento e execução das atividades diárias de acordo com os prazos definidos pela equipe, colaborando com o bom andamento das operações e a qualidade dos resultados.",
+                "- Planejamento de Testes, Cenários de Testes, Casos de testes.",
+                "- Documentação de rotinas e bugs de sistema.",
+                "- Automação de testes da Web com Ghost Inspector, Selenium."
+            ],
+            "competencias": [
+                "Garantia de qualidade de software",
+                "Testes ágeis",
+                "Testes de banco de dados",
+                "Qualidade de software",
+                "Automação de testes"
+            ]
+        }
+    ],
+    "certificacoes": [
+        {
+            "titulo": "Bacharelado em Ciência da Computação",
+            "descricao": "Bacharel pela Universidade Vila Vleha (UVV)",
+            "link": "",
+            "autor": "Universidade Vila Vleha (UVV)"
+        },
+        {
+            "titulo": "Testes End to End com Cypress",
+            "descricao": "Testes e2e e executá-los em um workflow de integração contínua",
+            "link": "https://www.udemy.com/certificate/UC-a0d69e04-4bb3-4305-9c4d-b239995f2bf9/?utm_medium=email&utm_campaign=email&utm_source=sendgrid.com",
+            "autor": "Udemy"
+        },
+        {
+            "titulo": "Boas práticas em automação de testes com Cypress",
+            "descricao": "",
+            "link": "https://www.udemy.com/certificate/UC-9ac96d32-2cf2-4696-91ae-bea0dbbc7445/",
+            "autor": "Udemy"
+        },
+        {
+            "titulo": "Formação Carreira QA: processos e automação de testes",
+            "descricao": "Como eliminar toda e qualquer má prática de testes automatizados escritos com o framework Cypress",
+            "link": "https://cursos.alura.com.br/degree/certificate/e4f8e385-a5cf-430c-b81f-d119e799f2df",
+            "autor": "Alura"
+        },
+        {
+            "titulo": "CCNA: Switching, Routing, and Wireless Essentials",
+            "descricao": "Verificação emitida em jul de 2023",
+            "link": "https://www.credly.com/badges/dec8c51a-1096-4962-b13d-c711b5d1d3b0",
+            "autor": "Cisco"
+        },
+        {
+            "titulo": "Create and Manage Cloud Resources",
+            "descricao": "Verificação emitida em nov de 2023",
+            "link": "https://www.cloudskillsboost.google/public_profiles/6d9f9f52-a24f-4ab7-a2f4-2330ecbb575d/badges/6201115?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share",
+            "autor": "Google"
         }
     ]
 }
